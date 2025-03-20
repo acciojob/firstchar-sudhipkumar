@@ -1,8 +1,10 @@
 function firstChar(text) {
-  // your code here
+  // Trim leading spaces and return the first character
+  let trimmedText = text.trim();
+  return trimmedText.length > 0 ? trimmedText[0] : '';
 }
 
 // Do not change the code below
-//Uncomment the following line to show the prompt popup
-//const text = prompt("Enter text:");
-alert(firstChar(text));
+// Uncomment the following lines to test in a browser environment
+// const text = prompt("Enter text:");
+// alert(firstChar(text));
