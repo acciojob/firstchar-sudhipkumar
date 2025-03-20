@@ -8,4 +8,4 @@ function firstChar(text) {
 
 // Uncomment the following lines to test in a browser environment
 const text = prompt("Enter text:");
-// alert(firstChar(text));
+alert(firstChar(text));
